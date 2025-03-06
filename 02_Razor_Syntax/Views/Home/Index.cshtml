@@ -1,0 +1,57 @@
+﻿@{
+    Layout = null;
+
+    List<string> adlar = new List<string> { "Altan", "Uras", "Kıvanç", "Kerem" };
+
+}
+@{int sayi=1;}
+
+<html>
+    <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    </head>
+    <body>
+   <h1>Altan Emre DEMİRCİ</h1>
+   <h1>@sayi</h1>
+   <br /><br />
+
+   
+
+    <table class="table container">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in adlar)
+            {
+                <tr>
+                    <th scope="row">@sayi</th>
+                    <td>@item</td>
+                </tr>
+                @(sayi=sayi+1)
+            }
+           
+          
+        </tbody>
+    </table>
+
+
+
+    </body>
+</html>
+
+
+
+
+@*
+
+Razor Syntax: Html kodları içerisinde c# komutları yazmamızı sağlar. @ işareti ile tanımlanır.
+
+Razor syntax bir komut @* işaretleri ile comment haline gelir.
+
+*@
