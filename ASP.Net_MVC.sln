@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_MVC", "01_MVC\01_MVC.csproj", "{DFBEF1C9-FD2F-4E5F-8D89-B72506C5475E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_MVC", "01_MVC\01_MVC.csproj", "{DFBEF1C9-FD2F-4E5F-8D89-B72506C5475E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Razor_Syntax", "02_Razor_Syntax\02_Razor_Syntax.csproj", "{2534F1EA-DC0D-486D-9A58-8B0C770F9A06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Razor_Syntax", "02_Razor_Syntax\02_Razor_Syntax.csproj", "{2534F1EA-DC0D-486D-9A58-8B0C770F9A06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_ViewBag_ViewData_TempData", "03_ViewBag_ViewData_TempData\03_ViewBag_ViewData_TempData.csproj", "{50F7E16D-C721-43A2-BCC1-DD515121AC26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Template_MVC", "04_Template_MVC\04_Template_MVC.csproj", "{3CA97F00-F3C3-4A08-B175-E5269089DD4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{2534F1EA-DC0D-486D-9A58-8B0C770F9A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2534F1EA-DC0D-486D-9A58-8B0C770F9A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2534F1EA-DC0D-486D-9A58-8B0C770F9A06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50F7E16D-C721-43A2-BCC1-DD515121AC26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50F7E16D-C721-43A2-BCC1-DD515121AC26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50F7E16D-C721-43A2-BCC1-DD515121AC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50F7E16D-C721-43A2-BCC1-DD515121AC26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CA97F00-F3C3-4A08-B175-E5269089DD4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA97F00-F3C3-4A08-B175-E5269089DD4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA97F00-F3C3-4A08-B175-E5269089DD4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA97F00-F3C3-4A08-B175-E5269089DD4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
