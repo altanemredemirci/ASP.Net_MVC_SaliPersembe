@@ -10,13 +10,14 @@ namespace _05_Layout_PartialView_RenderSection.Controllers
 		DataContext db = new DataContext();
         public IActionResult Index()
         {
-			var model = db.Products.Include(i=>i.Images).ToList();
+			var model = db.Products.Include(i=>i.Images).Where(i=> i.Rating>3).ToList();
             return View(model);
         }
 
 		public IActionResult Products()
 		{
-			return View();
+			var products = db.Products.Include("Images").ToList();
+			return View(products);
 		}
 
 		public IActionResult ProductDetail(int id)
