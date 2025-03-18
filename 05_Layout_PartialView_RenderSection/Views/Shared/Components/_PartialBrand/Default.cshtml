@@ -1,0 +1,12 @@
+﻿@model List<Brand>
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<ul class="nav nav-pills nav-stacked">
+	@foreach (var brand in Model)
+	{
+		<li><a href="#"> <span class="pull-right">(50)</span>@brand.Name</a></li>
+	}
+	
+	
+</ul>
